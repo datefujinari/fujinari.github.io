@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --color-accent-lightblue: #add8e6;  /* 水色 */
+    --color-accent-skin: #ffdab9;      /* 肌色 */
+  }
+}
